@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47470" started-at="2021-10-17T01:59:01 IST" finished-at="2021-10-17T01:59:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47470" started-at="2021-10-17T01:59:01 IST" finished-at="2021-10-17T01:59:49 IST">
+      <class name="testCases.DeleteLead">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:testCases.DeleteLead@73b9ce]" name="launchChrome" is-config="true" duration-ms="7190" started-at="2021-10-17T01:59:01 IST" finished-at="2021-10-17T01:59:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="editLead()[pri:0, instance:testCases.DeleteLead@73b9ce]" name="editLead" duration-ms="22061" started-at="2021-10-17T01:59:08 IST" finished-at="2021-10-17T01:59:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:testCases.DeleteLead@73b9ce]" name="CloseDriver" is-config="true" duration-ms="2133" started-at="2021-10-17T01:59:30 IST" finished-at="2021-10-17T01:59:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- testCases.DeleteLead -->
+      <class name="testCases.CreateLead">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:testCases.CreateLead@e82894]" name="launchChrome" is-config="true" duration-ms="7360" started-at="2021-10-17T01:59:01 IST" finished-at="2021-10-17T01:59:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:testCases.CreateLead@e82894]" name="createLead" duration-ms="16129" started-at="2021-10-17T01:59:09 IST" finished-at="2021-10-17T01:59:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:testCases.CreateLead@e82894]" name="CloseDriver" is-config="true" duration-ms="2146" started-at="2021-10-17T01:59:25 IST" finished-at="2021-10-17T01:59:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- testCases.CreateLead -->
+      <class name="testCases.EditLead">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:testCases.EditLead@438a68]" name="launchChrome" is-config="true" duration-ms="5160" started-at="2021-10-17T01:59:27 IST" finished-at="2021-10-17T01:59:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="editLead()[pri:0, instance:testCases.EditLead@438a68]" name="editLead" duration-ms="14459" started-at="2021-10-17T01:59:32 IST" finished-at="2021-10-17T01:59:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:testCases.EditLead@438a68]" name="CloseDriver" is-config="true" duration-ms="2117" started-at="2021-10-17T01:59:46 IST" finished-at="2021-10-17T01:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- testCases.EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
